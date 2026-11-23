@@ -25,10 +25,10 @@ dependencies = [
 [project.optional-dependencies]
 # The HTTP API consumed by the React frontend. Deployed on its own.
 api = [
-    "fastapi==0.162.0",
+    "fastapi==0.162.2",
     "uvicorn[standard]==0.54.0",
     # Error tracking (server/monitoring.py); off unless SENTRY_DSN is set.
-    "sentry-sdk==2.73.0",
+    "sentry-sdk==2.74.0",
     # Fetching a recipe page someone linked (app/fetch.py).
     "httpx==0.28.1",
 ]
@@ -41,7 +41,7 @@ dev = [
     "python-dotenv==1.2.4",
     # Lint and format. The frontend has had both since it was written; this
     # keeps the Python held to the same standard rather than a lower one.
-    "ruff==0.17.3",
+    "ruff==0.17.4",
     # Static type checking for app/ and server/, run in CI.
     "pyright==1.1.414",
     # Coverage, with a floor in [tool.coverage.report] that CI enforces.
