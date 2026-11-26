@@ -26,7 +26,7 @@ jobs:
       # APP_URL is a repository variable, defaulting to the production site.
       - name: Ask /health/ready
         env:
-          APP_URL: ${{ vars.APP_URL || 'https://meal-planner-liard-ten.vercel.app' }}
+          APP_URL: ${{ vars.APP_URL || 'https://the-fridge-door-app.vercel.app' }}
         run: |
           curl --fail-with-body --silent --show-error --max-time 30 \
             --write-out '\nready in %{time_total}s\n' \

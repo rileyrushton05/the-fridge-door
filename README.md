@@ -5,7 +5,7 @@
 Plan a week of meals and get one grocery list for all of it. A React and
 TypeScript frontend over a FastAPI backend, on Postgres.
 
-**[Try it: meal-planner-liard-ten.vercel.app](https://meal-planner-liard-ten.vercel.app/)**,
+**[Try it: the-fridge-door-app.vercel.app](https://the-fridge-door-app.vercel.app/)**,
 with no sign-up: a first visit opens as a guest with a few meals already
 planned.
 
